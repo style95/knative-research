@@ -17,7 +17,7 @@ const express = require('express');
 const app = express();
 
 app.get('/', (req, res) => {
-  const name = process.env.NAME || 'Dominic';
+  const name = process.env.NAME || 'CP';
   res.send(`Hello ${name}!`);
 });
 
